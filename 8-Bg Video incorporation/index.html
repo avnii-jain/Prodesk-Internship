@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="video-container">
+        <video autoplay muted loop id="bg-video">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-tree-with-yellow-flowers-1173-large.mp4" type="video/mp4">
+            My browser does not support HTML5 video.
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="content">
+            <h1>Welcome to Nature</h1>
+            <p>Experience the beauty of the outdoors</p>
+            <button id="video-control" class="btn">
+                <i class="fas fa-pause"></i> Pause Video
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
